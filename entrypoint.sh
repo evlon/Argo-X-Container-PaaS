@@ -32,6 +32,10 @@ generate_config() {
                         "dest":3001
                     },
                     {
+                        "path":"/api",
+                        "dest":3000
+                    },
+                    {
                         "path":"/${WSPATH}-vless",
                         "dest":3002
                     },
